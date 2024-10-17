@@ -2825,7 +2825,7 @@ hr {
 }
 
 .button-secondary-text, .button-secondary-text:focus {
-	color: red;
+	color: #BF6D82;
 	background-color: #ffffff;
 	border-color: #ffffff;
 }
