@@ -391,7 +391,7 @@ mark,
 }
 
 .big {
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 1.5;
 }
 
@@ -1527,7 +1527,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-counter:hover .box-counter-main {
-	color: #f16583;
+	color: #BF6D82;
 }
 
 @media (min-width: 1200px) {
@@ -2168,7 +2168,7 @@ h5 + .list-marked-big {
 	display: inline-block;
 	font-family: "FontAwesome";
 	font-weight: 400;
-	color: #f16583;
+	color: #BF6D82;
 }
 
 .list-marked-2 > li + li {
@@ -2774,8 +2774,8 @@ hr {
 
 .button-primary, .button-primary:focus {
 	color: #ffffff;
-	background-color: #516ca9;
-	border-color: #516ca9;
+	background-color: #626F8A;
+	border-color: #626F8A;
 }
 
 .sp{
@@ -2810,8 +2810,8 @@ hr {
 
 .button-secondary, .button-secondary:focus {
 	color: #ffffff;
-	background-color: #f16583;
-	border-color: #f16583;
+	background-color: #BF6D82;
+	border-color: #BF6D82;
 }
 
 .button-secondary:hover, .button-secondary:active, .button-secondary.active {
@@ -4263,7 +4263,7 @@ blockquote cite {
 .breadcrumbs-custom {
 	position: relative;
 	padding: 20px 0;
-	background-color: #516ca9;
+	background-color: #BF6D82 !important;
 	background-position: center;
 }
 
@@ -5775,7 +5775,7 @@ html:not(.lt-ie10) .not-animated {
 	font-size: 20px;
 	line-height: 56px;
 	color: #ffffff;
-	background: #516ca9;
+	background: #626F8A;
 	overflow: hidden;
 	text-align: center;
 	text-decoration: none;
@@ -7257,7 +7257,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-static-linked .rd-navbar-bg {
-	height: 77px;
+	height: 60px;
 }
 
 @media (min-width: 1600px) {
