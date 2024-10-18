@@ -640,8 +640,9 @@ a[href*='tel'], a[href*='mailto'] {
 	font-size: 40px;
 	line-height: 90px;
 	text-align: center;
-	background: #ffffff;
+	background: #BF6D82;
 	border-radius: 50%;
+	
 	transform: translate(-50%, -50%);
 }
 
@@ -2825,7 +2826,7 @@ hr {
 }
 
 .button-secondary-text, .button-secondary-text:focus {
-	color: #BF6D82;
+	color: red;
 	background-color: #ffffff;
 	border-color: #ffffff;
 }
@@ -5730,7 +5731,7 @@ html:not(.lt-ie10) .not-animated {
 	top: 2px;
 	right: 2px;
 	bottom: 2px;
-	background: #516ca9;
+	background: #626F8A;
 }
 
 .loader > div:nth-of-type(1), .loader > div:nth-of-type(5), .loader > div:nth-of-type(9) {
@@ -7138,16 +7139,14 @@ html.rd-navbar-fixed-linked .page {
 	right: 0;
 }
 
-.rd-navbar-transparent.rd-navbar-static .rd-navbar-main-inner {
-	background-color: rgba(46, 56, 68, 0.3);
-}
+
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-main {
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 25px 0 28px;
+	padding: 11px 0 10px;
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-info > * {
@@ -7171,17 +7170,17 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-nav-link {
-	color: #ffffff;
+	color: #BF6D82;
 	border-bottom: 1px solid transparent;
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-nav-item:hover .rd-nav-link, .rd-navbar-transparent.rd-navbar-static .rd-nav-item.focus .rd-nav-link, .rd-navbar-transparent.rd-navbar-static .rd-nav-item.active .rd-nav-link, .rd-navbar-transparent.rd-navbar-static .rd-nav-item.opened .rd-nav-link {
-	color: #ffffff;
-	border-bottom-color: #ffffff;
+	color: #BF6D82;
+	border-bottom-color: #BF6D82;
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-nav-item > .rd-navbar-submenu-toggle {
-	color: #ffffff;
+	color: #BF6D82;
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-nav-item + .rd-nav-item {
@@ -7236,7 +7235,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-transparent.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-main-inner, .rd-navbar-transparent.rd-navbar-static.rd-navbar--is-clone .rd-navbar-main-inner {
-	background-color: #2e3844;
+	background-color: white;
 	box-shadow: 0 0 22px -4px rgba(0, 0, 0, 0.17);
 }
 
