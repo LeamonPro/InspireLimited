@@ -2826,7 +2826,7 @@ hr {
 }
 
 .button-secondary-text, .button-secondary-text:focus {
-	color: red;
+	color: #BF6D82;
 	background-color: #ffffff;
 	border-color: #ffffff;
 }
@@ -5143,7 +5143,7 @@ html [class*='section-'].section-bottom-0 {
 		padding-bottom: 50px;
 	}
 	.section-lg {
-		padding: 100px 0;
+		padding: 130px 0;
 	}
 	.section-lg-top-50 {
 		padding-top: 50px;
@@ -5216,6 +5216,28 @@ html [class*='section-'].section-bottom-0 {
 	max-width: 100%;
 	height: auto;
 }
+
+.video-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+	overflow: hidden;
+  }
+  
+  .responsive-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 68%;
+	object-fit: contain;
+  }
+  
+  @media (max-width: 768px) {
+	.video-container {
+	  padding-bottom: 177.78%; /* 9:16 Aspect Ratio for vertical videos on mobile */
+	}
+  }
 
 /** @section Grid modules */
 .grid-demo {
