@@ -1,705 +1,530 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, height=device-height, initial-scale=1.0"
-    />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900"
-    />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <style>
-      .ie-panel {
-        display: none;
-        background: #212121;
-        padding: 10px 0;
-        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
-        clear: both;
-        text-align: center;
-        position: relative;
-        z-index: 1;
-      }
 
-      html.ie-10 .ie-panel,
-      html.lt-ie-10 .ie-panel {
-        display: block;
-      }
-    </style>
-  </head>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="images/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
 
-  <body>
-    <div class="ie-panel">
-      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
-        ><img
-          src="images/ie8-panel/warning_bar_0000_us.jpg"
-          height="42"
-          width="820"
-          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
-      /></a>
-    </div>
-    <div class="preloader">
-      <div class="preloader-body">
-        <div class="loader">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <p>Loading...</p>
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ie-panel">
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg"
+        height="42" width="820"
+        alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+  </div>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
+      <p>Loading...</p>
     </div>
-    <div class="page">
-      <header class="section page-header rd-navbar-transparent-wrap">
-        <!--RD Navbar-->
-        <div class="rd-navbar-wrap">
-          <nav
-            class="rd-navbar rd-navbar-transparent"
-            data-layout="rd-navbar-fixed"
-            data-sm-layout="rd-navbar-fixed"
-            data-md-layout="rd-navbar-fixed"
-            data-md-device-layout="rd-navbar-fixed"
-            data-lg-layout="rd-navbar-static"
-            data-lg-device-layout="rd-navbar-static"
-            data-xl-layout="rd-navbar-static"
-            data-xl-device-layout="rd-navbar-static"
-            data-lg-stick-up-offset="20px"
-            data-xl-stick-up-offset="20px"
-            data-xxl-stick-up-offset="20px"
-            data-lg-stick-up="true"
-            data-xl-stick-up="true"
-            data-xxl-stick-up="true"
-          >
-            <div
-              class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
-              data-rd-navbar-toggle=".rd-navbar-collapse"
-            >
-              <span></span>
-            </div>
-            <div class="rd-navbar-main-outer">
-              <div class="rd-navbar-main-inner">
-                <div class="rd-navbar-main">
-                  <!--RD Navbar Panel-->
-                  <div class="rd-navbar-panel">
-                    <!--RD Navbar Toggle-->
-                    <button
-                      class="rd-navbar-toggle"
-                      data-rd-navbar-toggle=".rd-navbar-nav-wrap"
-                    >
-                      <span></span>
-                    </button>
-                    <!--RD Navbar Brand-->
-                    <div class="rd-navbar-brand">
-                      <a class="brand" href="index.html">
-                        <img
-                          class="brand-logo-dark"
-                          src="images/logo.png"
-                          alt=""
-                          width="146"
-                          height="22"
-                        />
-                        <img
-                          class="brand-logo-light"
-                          src="images/logo.png"
-                          alt=""
-                          width="155"
-                          height="22"
-                        />
-                      </a>
-                    </div>
+  </div>
+  <div class="page">
+    <header class="section page-header rd-navbar-transparent-wrap">
+      <!--RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px"
+          data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse">
+            <span></span>
+          </div>
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main-inner">
+              <div class="rd-navbar-main">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap">
+                    <span></span>
+                  </button>
+                  <!--RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <a class="brand" href="index.html">
+                      <img class="brand-logo-dark" src="images/logo.png" alt="" width="146" height="22" />
+                      <img class="brand-logo-light" src="images/logo.png" alt="" width="155" height="22" />
+                    </a>
                   </div>
-                  <div class="rd-navbar-main-element">
-                    <div class="rd-navbar-nav-wrap">
-                      <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item active">
-                          <a class="rd-nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="about.html">About</a>
-                        </li>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active">
+                        <a class="rd-nav-link" href="index.html">Home</a>
+                      </li>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="about.html">About</a>
+                      </li>
 
-                        <!-- What We Do Dropdown -->
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#">What We Do</a>
-                          <ul class="rd-navbar-dropdown">
-                            <li class="rd-dropdown-item">
-                              <a
-                                class="rd-dropdown-link"
-                                href="problemIdentification.html"
-                                >Problem Identification</a
-                              >
-                            </li>
-                            <li class="rd-dropdown-item">
-                              <a
-                                class="rd-dropdown-link"
-                                href="businessSolutions.html"
-                                >Business Solutions</a
-                              >
-                            </li>
-                            <li class="rd-dropdown-item">
-                              <a
-                                class="rd-dropdown-link"
-                                href="solutionsImplementation.html"
-                                >Solutions Implementation</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
+                      <!-- What We Do Dropdown -->
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="#">What We Do</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="problemIdentification.html">Problem Identification</a>
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="businessSolutions.html">Business Solutions</a>
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="solutionsImplementation.html">Solutions Implementation</a>
+                          </li>
+                        </ul>
+                      </li>
 
-                        <!-- Functions Dropdown -->
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="#">Functions</a>
-                          <ul class="rd-navbar-dropdown">
-                            <li class="rd-dropdown-item">
-                              <a
-                                class="rd-dropdown-link"
-                                href="digitalTransformation.html"
-                                >Digital Transformation</a
-                              >
-                            </li>
-                            <li class="rd-dropdown-item">
-                              <a
-                                class="rd-dropdown-link"
-                                href="peopleManagement.html"
-                                >People Management</a
-                              >
-                            </li>
-                            <li class="rd-dropdown-item">
-                              <a class="rd-dropdown-link" href="finance.html"
-                                >Finance & Control Management</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li class="rd-nav-item">
-                          <a class="rd-nav-link" href="contacts.html"
-                            >Contacts</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div
-          class="rd-navbar-bg novi-background bg-image"
-          style="background-color: white !important"
-        ></div>
-      </header>
-      <!--Swiper-->
-      <section
-        class="section swiper-container swiper-slider swiper-slider-1 context-dark"
-        data-loop="true"
-        data-autoplay="5000"
-        data-simulate-touch="false"
-      >
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" data-slide-bg="images/consulting.jpg">
-            <div class="swiper-slide-caption section-lg">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1>
-                      <span
-                        class="d-block"
-                        data-caption-animate="fadeInUp"
-                        data-caption-delay="100"
-                        >Problem Identification</span
-                      ><span
-                        class="d-block text-light"
-                        data-caption-animate="fadeInUp"
-                        data-caption-delay="200"
-                        >& Advice Services</span
-                      >
-                    </h1>
-                    <p
-                      class="lead"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="350"
-                    >
-                      Providing every client with the attention they deserve.
-                    </p>
-                    <div
-                      class="button-wrap-default"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="450"
-                    >
-                      <a
-                        class="button button-secondary-text"
-                        href="problemIdentification.html"
-                        >Read more</a
-                      >
-                    </div>
+                      <!-- Functions Dropdown -->
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="#">Functions</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="digitalTransformation.html">Digital Transformation</a>
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="peopleManagement.html">People Management</a>
+                          </li>
+                          <li class="rd-dropdown-item">
+                            <a class="rd-dropdown-link" href="finance.html">Finance & Control Management</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="rd-nav-item">
+                        <a class="rd-nav-link" href="contacts.html">Contacts</a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="swiper-slide" data-slide-bg="images/consulting2.jpg">
-            <div class="swiper-slide-caption section-lg">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1>
-                      <span
-                        class="d-block"
-                        data-caption-animate="fadeInUp"
-                        data-caption-delay="100"
-                        >Business Solutions</span
-                      ><span
-                        class="d-block text-light"
-                        data-caption-animate="fadeInUp"
-                        data-caption-delay="200"
-                        >for Your Business</span
-                      >
-                    </h1>
-                    <p
-                      class="lead"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="350"
-                    >
-                      Get rid of any accounting issues with our team’s
-                      assistance.
-                    </p>
-                    <div
-                      class="button-wrap-default"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="450"
-                    >
-                      <a
-                        class="button button-secondary-text"
-                        href="businessSolutions.html"
-                        >Read more</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide" data-slide-bg="images/consulting3.jpg">
-            <div class="swiper-slide-caption section-lg">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                    <h1>
-                      <span
-                        class="d-block"
-                        data-caption-animate="fadeInUp"
-                        data-caption-delay="100"
-                        >Solutions Implementation</span
-                      ><span
-                        class="d-block text-light"
-                        data-caption-animate="fadeInUp"
-                        data-caption-delay="200"
-                        >Guide you to implement your solution</span
-                      >
-                    </h1>
-                    <p
-                      class="lead"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="350"
-                    >
-                      We offer specialist and full 24/7 support.
-                    </p>
-                    <div
-                      class="button-wrap-default"
-                      data-caption-animate="fadeInUp"
-                      data-caption-delay="450"
-                    >
-                      <a
-                        class="button button-secondary-text"
-                        href="solutionsImplementation.html"
-                        >Read more</a
-                      >
-                    </div>
+        </nav>
+      </div>
+      <div class="rd-navbar-bg novi-background bg-image" style="background-color: white !important"></div>
+    </header>
+    <a href="mailto:contact@inspire-limited.com" id="fixed-email-icon" aria-label="Email Us">
+      <i class="mdi mdi-email"></i>
+    </a>
+    <!--Swiper-->
+    <section class="section swiper-container swiper-slider swiper-slider-1 context-dark" data-loop="true"
+      data-autoplay="5000" data-simulate-touch="false">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-slide-bg="images/consulting.jpg">
+          <div class="swiper-slide-caption section-lg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                  <h1>
+                    <span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Problem
+                      Identification</span><span class="d-block text-light" data-caption-animate="fadeInUp"
+                      data-caption-delay="200">& Advice Services</span>
+                  </h1>
+                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">
+                    Providing every client with the attention they deserve.
+                  </p>
+                  <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450">
+                    <a class="button button-secondary-text" href="problemIdentification.html">Read more</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!--Swiper Pagination-->
-        <div class="swiper-pagination-wrap">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
-                <div class="swiper-pagination"></div>
+        <div class="swiper-slide" data-slide-bg="images/consulting2.jpg">
+          <div class="swiper-slide-caption section-lg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                  <h1>
+                    <span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Business
+                      Solutions</span><span class="d-block text-light" data-caption-animate="fadeInUp"
+                      data-caption-delay="200">for Your Business</span>
+                  </h1>
+                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">
+                    Get rid of any accounting issues with our team’s
+                    assistance.
+                  </p>
+                  <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450">
+                    <a class="button button-secondary-text" href="businessSolutions.html">Read more</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!--Icon List 2-->
-      <section
-        class="section section-sm section-sm-bottom-100"
-        style="background-color: #626f8a"
-      >
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 wow fadeInUp">
-              <div class="box-icon-2">
-                <div
-                  class="icon novi-icon mercury-icon-calc"
-                  style="color: white"
-                ></div>
-                <h5 class="title" style="color: black">
-                  Digital Transformation
-                </h5>
-                <p class="text" style="color: white">
-                  We empowers businesses with customized digital transformation
-                  strategies, focusing on innovation, product design, and
-                  redesign. They help companies enhance their digital journey to
-                  stay competitive.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="box-icon-2">
-                <div
-                  class="icon novi-icon mercury-icon-time-sand"
-                  style="color: white"
-                ></div>
-                <h5 class="title" style="color: black">People Management</h5>
-                <p class="text" style="color: white">
-                  We enhances people management through tailored organization
-                  design, talent development, and executive coaching. They help
-                  build high-value teams, upskill talent, and guide executives
-                  to make informed decisions.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="box-icon-2">
-                <div
-                  class="icon novi-icon mercury-icon-chart"
-                  style="color: white"
-                ></div>
-                <h5 class="title" style="color: black">Finance & Management</h5>
-                <p class="text" style="color: white">
-                  We improves Finance & Controls Management by identifying
-                  problems and implementing tailored solutions for operational
-                  excellence, risk management, and sustainable growth.
-                </p>
+        <div class="swiper-slide" data-slide-bg="images/consulting3.jpg">
+          <div class="swiper-slide-caption section-lg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+                  <h1>
+                    <span class="d-block" data-caption-animate="fadeInUp" data-caption-delay="100">Solutions
+                      Implementation</span><span class="d-block text-light" data-caption-animate="fadeInUp"
+                      data-caption-delay="200">Guide you to implement your solution</span>
+                  </h1>
+                  <p class="lead" data-caption-animate="fadeInUp" data-caption-delay="350">
+                    We offer specialist and full 24/7 support.
+                  </p>
+                  <div class="button-wrap-default" data-caption-animate="fadeInUp" data-caption-delay="450">
+                    <a class="button button-secondary-text" href="solutionsImplementation.html">Read more</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Download Our Tax Guide App-->
-      <section class="section bg-gray-100 box-image-left">
+      </div>
+      <!--Swiper Pagination-->
+      <div class="swiper-pagination-wrap">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 wow fadeInLeft">
-              <div class="section-lg section-lg-top-100">
-                <h2 class="title-icon title-icon-2">
-                  <span
-                    >Know Us<br /><span class="text-light"
-                      >Inspire Limited</span
-                    ></span
-                  >
-                </h2>
-                <p class="big">
-                  We are excited to introduce Glimited, the ultimate solution
-                  for comprehensive digital transformation and people management
-                  that our clients have been seeking. Now available for all
-                  businesses looking to enhance their operations, Glimited is
-                  designed to empower organizations and drive success across
-                  every facet of their journey.
-                </p>
-                <div class="group-sm group-wrap-2">
-                  <a class="button button-primary" href="contacts.html"
-                    >READ MORE</a
-                  ><a
-                    class="button button-icon button-icon-right button-secondary"
-                    href="about"
-                    ><span>ABOUT US</span></a
-                  >
-                </div>
-              </div>
+            <div class="col-md-9 col-lg-7 offset-md-1 offset-xxl-0">
+              <div class="swiper-pagination"></div>
             </div>
           </div>
         </div>
-        <div class="video-container box-image-item box-image-video novi-background bg-image">
-          <video
-            controls
-            loop
-            autoplay
-            muted
-            class="responsive-video"
-            src="video/skan.mp4"
-          >
-            Your browser does not support the video tag.
-          </video>
+      </div>
+    </section>
+    <!--Icon List 2-->
+    <section class="section section-sm section-sm-bottom-100" style="background-color: #626f8a">
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-4 wow fadeInUp">
+            <div class="box-icon-2">
+              <div class="icon novi-icon mercury-icon-calc" style="color: white"></div>
+              <h5 class="title" style="color: black">
+                Digital Transformation
+              </h5>
+              <p class="text" style="color: white">
+                We empowers businesses with customized digital transformation
+                strategies, focusing on innovation, product design, and
+                redesign. They help companies enhance their digital journey to
+                stay competitive.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box-icon-2">
+              <div class="icon novi-icon mercury-icon-time-sand" style="color: white"></div>
+              <h5 class="title" style="color: black">People Management</h5>
+              <p class="text" style="color: white">
+                We enhances people management through tailored organization
+                design, talent development, and executive coaching. They help
+                build high-value teams, upskill talent, and guide executives
+                to make informed decisions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box-icon-2">
+              <div class="icon novi-icon mercury-icon-chart" style="color: white"></div>
+              <h5 class="title" style="color: black">Finance & Management</h5>
+              <p class="text" style="color: white">
+                We improves Finance & Controls Management by identifying
+                problems and implementing tailored solutions for operational
+                excellence, risk management, and sustainable growth.
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- Our Mission-->
-      <section id="stat" class="section bg-default section-md">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-6">
-              <h2 class="title-icon">
-                <span
-                  class="icon icon-default mercury-icon-target-2"
-                  style="color: #bf6d82"
-                ></span
-                ><span>Our <span class="text-light">Mission</span></span>
+      </div>
+    </section>
+    <!-- Download Our Tax Guide App-->
+    <section class="section bg-gray-100 box-image-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 wow fadeInLeft">
+            <div class="section-lg section-lg-top-100">
+              <h2 class="title-icon title-icon-2">
+                <span>Know Us<br /><span class="text-light">Inspire Limited</span></span>
               </h2>
               <p class="big">
-                Our mission with clients is always long-term through their own
-                choice. Through our Continuous Support program, we keep tabs
-                with our clients and point out where things might go wrong to
-                take preventive measures.
+                We are excited to introduce Glimited, the ultimate solution
+                for comprehensive digital transformation and people management
+                that our clients have been seeking. Now available for all
+                businesses looking to enhance their operations, Glimited is
+                designed to empower organizations and drive success across
+                every facet of their journey.
               </p>
-              <ul class="list-marked-2">
-                <li>
-                  Providing a very simple approach Evaluate and understand the
-                  business problems
-                </li>
-                <li>Formulate tailored solutions</li>
-                <li>Implement the solutions together with the client.</li>
-              </ul>
-              <a class="button button-primary" href="about.html">Read more</a>
+              <div class="group-sm group-wrap-2">
+                <a class="button button-primary" href="contacts.html">READ MORE</a><a
+                  class="button button-icon button-icon-right button-secondary" href="about"><span>ABOUT US</span></a>
+              </div>
             </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">150</div>
-                    </div>
-                    <p class="box-counter-title">Satisfied Clients</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-container box-image-item box-image-video novi-background bg-image">
+        <video controls loop autoplay muted class="responsive-video" src="video/skan.mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+    <!-- Our Mission-->
+    <section id="stat" class="section bg-default section-md">
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-6">
+            <h2 class="title-icon">
+              <span class="icon icon-default mercury-icon-target-2" style="color: #bf6d82"></span><span>Our <span
+                  class="text-light">Mission</span></span>
+            </h2>
+            <p class="big">
+              Our mission with clients is always long-term through their own
+              choice. Through our Continuous Support program, we keep tabs
+              with our clients and point out where things might go wrong to
+              take preventive measures.
+            </p>
+            <ul class="list-marked-2">
+              <li>
+                Providing a very simple approach Evaluate and understand the
+                business problems
+              </li>
+              <li>Formulate tailored solutions</li>
+              <li>Implement the solutions together with the client.</li>
+            </ul>
+            <a class="button button-primary" href="about.html">Read more</a>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-6">
+                <!--Box counter-->
+                <div class="box-counter">
+                  <div class="box-counter-main">
+                    <div class="counter">150</div>
                   </div>
+                  <p class="box-counter-title">Satisfied Clients</p>
                 </div>
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">28</div>
-                    </div>
-                    <p class="box-counter-title">Team Members</p>
+              </div>
+              <div class="col-6">
+                <!--Box counter-->
+                <div class="box-counter">
+                  <div class="box-counter-main">
+                    <div class="counter">28</div>
                   </div>
+                  <p class="box-counter-title">Team Members</p>
                 </div>
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">1</div>
-                    </div>
-                    <p class="box-counter-title">Location</p>
+              </div>
+              <div class="col-6">
+                <!--Box counter-->
+                <div class="box-counter">
+                  <div class="box-counter-main">
+                    <div class="counter">1</div>
                   </div>
+                  <p class="box-counter-title">Location</p>
                 </div>
-                <div class="col-6">
-                  <!--Box counter-->
-                  <div class="box-counter">
-                    <div class="box-counter-main">
-                      <div class="counter">100</div>
-                      <span>%</span>
-                    </div>
-                    <p class="box-counter-title">Satisfaction Rate</p>
+              </div>
+              <div class="col-6">
+                <!--Box counter-->
+                <div class="box-counter">
+                  <div class="box-counter-main">
+                    <div class="counter">100</div>
+                    <span>%</span>
                   </div>
+                  <p class="box-counter-title">Satisfaction Rate</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Latest Articles-->
-      <section class="section bg-default section-md">
-        <div class="container">
-          <h2 class="title-icon">
-            <span
-              class="icon icon-default mercury-icon-news"
-              style="color: #bf6d82"
-            ></span
-            ><span>What We <span class="text-light">Offer</span></span>
-          </h2>
-          <div class="box-image-small box-image-small-left">
-            <div class="item-body wow fadeInLeft">
-              <h4>Digital Transformation</h4>
-              <p class="big">
-                Allow us to elevate your business to new levels of success by
-                empowering you through the design and redesign of your digital
-                transformation journey.
-              </p>
-            </div>
-            <div class="item-body wow fadeInRight">
-              <h4>Team Management</h4>
-              <p class="big">
-                We excel in designing and improving capacity-building programs
-                to ensure your business has the right talent in the right
-                positions at the right time.
-              </p>
-            </div>
+    <!-- Latest Articles-->
+    <section class="section bg-default section-md">
+      <div class="container">
+        <h2 class="title-icon">
+          <span class="icon icon-default mercury-icon-news" style="color: #bf6d82"></span><span>What We <span
+              class="text-light">Offer</span></span>
+        </h2>
+        <div class="box-image-small box-image-small-left">
+          <div class="item-body wow fadeInLeft">
+            <h4>Digital Transformation</h4>
+            <p class="big">
+              Allow us to elevate your business to new levels of success by
+              empowering you through the design and redesign of your digital
+              transformation journey.
+            </p>
           </div>
-          <div class="box-image-small box-image-small-left">
-            <div class="item-body wow fadeInRight">
-              <h4>Financial Management and Oversight</h4>
-              <p class="big">
-                We support our clients by exploring various functions within the
-                finance and control sector, developing and implementing the most
-                suitable solutions.
-              </p>
-            </div>
-            <div class="item-body wow fadeInLeft">
-              <h4>Sales and Marketing</h4>
-              <p class="big">
-                Let us help ease this chapter for you with experience,
-                understanding, and ingenuity in marketing and sales.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer class="section footer-classic">
-        <div class="footer-inner-1">
-          <div class="container">
-            <div class="row row-40">
-              <!-- Our Contacts Section -->
-              <div class="col-md-5 col-lg-3">
-                <h5>Our Contacts</h5>
-                <ul class="contact-list font-weight-bold">
-                  <li>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div
-                          class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <a
-                          href="https://www.google.com/maps/search/Unit+2A,+17%2FF,+Glenealy+Tower,+No.1+Glenealy+Central,+Hong+Kong/@22.2803703,114.1523888,428m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
-                          target="_blank"
-                        >
-                          Unit 2A, 17/F, Glenealy Tower, No.1 Glenealy,<br />
-                          Central, Hong Kong
-                        </a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div
-                          class="icon icon-sm icon-primary novi-icon mdi mdi-phone"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <a href="tel:#">+852 8171 3179</a>
-                      </div>
-                    </div>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div
-                          class="icon icon-sm icon-primary novi-icon mdi mdi-gmail"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <a class="d-inline-block big" href="mailto:#">contact@inspirelimited.com</a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="unit unit-spacing-xs">
-                      <div class="unit-left">
-                        <div
-                          class="icon icon-sm icon-primary novi-icon mdi mdi-clock"
-                        ></div>
-                      </div>
-                      <div class="unit-body">
-                        <ul class="list-0">
-                          <li>Weekdays: 8:00–17:00</li>
-                          <li>Weekends: Closed</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                
-              </div>
-
-              <!-- Links Section -->
-              <div class="col-md-6 col-lg-4">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <h5>Links</h5>
-                    <ul class="footer-list big">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="contacts.html">Contact</a></li>
-                    </ul>
-                  </div>
-                  <div class="col-sm-6">
-                    <h5>Services</h5>
-                    <ul class="footer-list big">
-                      <li>
-                        <a href="problemIdentification.html"
-                          >Problem Identification</a
-                        >
-                      </li>
-                      <li>
-                        <a href="businessSolutions.html">Business Solutions</a>
-                      </li>
-                      <li>
-                        <a href="solutionsImplementation.html">Solutions Implementation</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <!-- New Column for Additional Services -->
-              <div class="col-md-6 col-lg-3">
-                <h5>Fonctions</h5>
-                <ul class="footer-list big">
-                  <li>
-                    <a href="digitalTransformation.html"
-                      >Digital Transformation</a
-                    >
-                  </li>
-                  <li><a href="peopleManagement.html">People Management</a></li>
-                  <li>
-                    <a href="finance.html">Finance & Control Management</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="footer-inner-2">
-          <div class="container">
-            <p class="rights">
-              <span>&copy;&nbsp;</span><span class="copyright-year"></span>. All
-              Rights Reserved. Design by
-              <a href="#">Freelancers</a>
+          <div class="item-body wow fadeInRight">
+            <h4>Team Management</h4>
+            <p class="big">
+              We excel in designing and improving capacity-building programs
+              to ensure your business has the right talent in the right
+              positions at the right time.
             </p>
           </div>
         </div>
-      </footer>
-    </div>
-    <div class="snackbars" id="form-output-global"></div>
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!--coded by Starlight-->
-  </body>
+        <div class="box-image-small box-image-small-left">
+          <div class="item-body wow fadeInRight">
+            <h4>Financial Management and Oversight</h4>
+            <p class="big">
+              We support our clients by exploring various functions within the
+              finance and control sector, developing and implementing the most
+              suitable solutions.
+            </p>
+          </div>
+          <div class="item-body wow fadeInLeft">
+            <h4>Sales and Marketing</h4>
+            <p class="big">
+              Let us help ease this chapter for you with experience,
+              understanding, and ingenuity in marketing and sales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section footer-classic">
+      <div class="footer-inner-1">
+        <div class="container">
+          <div class="row row-40">
+            <!-- Our Contacts Section -->
+            <div class="col-md-5 col-lg-3">
+              <h5>Our Contacts</h5>
+              <ul class="contact-list font-weight-bold">
+                <li>
+                  <div class="unit unit-spacing-xs">
+                    <div class="unit-left">
+                      <div class="icon icon-sm icon-primary novi-icon mdi mdi-map-marker"></div>
+                    </div>
+                    <div class="unit-body">
+                      <a href="https://www.google.com/maps/search/Unit+2A,+17%2FF,+Glenealy+Tower,+No.1+Glenealy+Central,+Hong+Kong/@22.2803703,114.1523888,428m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank">
+                        Unit 2A, 17/F, Glenealy Tower, No.1 Glenealy,<br />
+                        Central, Hong Kong
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-spacing-xs">
+                    <div class="unit-left">
+                      <div class="icon icon-sm icon-primary novi-icon mdi mdi-phone"></div>
+                    </div>
+                    <div class="unit-body">
+                      <a href="tel:#">+852 8171 3179</a>
+                    </div>
+                  </div>
+                  <div class="unit unit-spacing-xs">
+                    <div class="unit-left">
+                      <div class="icon icon-sm icon-primary novi-icon mdi mdi-gmail"></div>
+                    </div>
+                    <div class="unit-body">
+                      <a class="d-inline-block big" href="mailto:#">contact@inspire-limited.com</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="unit unit-spacing-xs">
+                    <div class="unit-left">
+                      <div class="icon icon-sm icon-primary novi-icon mdi mdi-clock"></div>
+                    </div>
+                    <div class="unit-body">
+                      <ul class="list-0">
+                        <li>Weekdays: 8:00–17:00</li>
+                        <li>Weekends: Closed</li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+
+            <!-- Links Section -->
+            <div class="col-md-6 col-lg-4">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h5>Links</h5>
+                  <ul class="footer-list big">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6">
+                  <h5>Services</h5>
+                  <ul class="footer-list big">
+                    <li>
+                      <a href="problemIdentification.html">Problem Identification</a>
+                    </li>
+                    <li>
+                      <a href="businessSolutions.html">Business Solutions</a>
+                    </li>
+                    <li>
+                      <a href="solutionsImplementation.html">Solutions Implementation</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- New Column for Additional Services -->
+            <div class="col-md-6 col-lg-3">
+              <h5>Fonctions</h5>
+              <ul class="footer-list big">
+                <li>
+                  <a href="digitalTransformation.html">Digital Transformation</a>
+                </li>
+                <li><a href="peopleManagement.html">People Management</a></li>
+                <li>
+                  <a href="finance.html">Finance & Control Management</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-inner-2">
+        <div class="container">
+          <p class="rights">
+            <span>&copy;&nbsp;</span><span class="copyright-year"></span>. All
+            Rights Reserved. Design by
+            <a href="#">Freelancers</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <!--coded by Starlight-->
+</body>
+
 </html>
